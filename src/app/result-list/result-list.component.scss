@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+.result-table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+
+    th,
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    th,
+    td {
+        text-align: left;
+    }
+
+    mat-row:nth-child(even) {
+        background-color: #f0f0f0;
+    }
+}
